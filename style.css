@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.links a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.about-section {
+    background-color: #fdfdfd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.profile-img {
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.about-section ul {
+    text-align: left;
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-section ul li::before {
+    content: "✂️ ";
+    margin-right: 8px;
+}
+
+.btn-link {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 15px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-link:hover {
+    background-color: #444;
+}
+
+.services-section {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.services-section h2 {
+    font-size: 24px;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.price-table th, .price-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.price-table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.price-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.price-table tr:hover {
+    background-color: #e9f5ff;
+}
+
+.contact-section {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 24px;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+}
+
+.contact-section form button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section form button:hover {
+    background-color: #0056b3;
+}
